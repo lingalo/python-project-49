@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+from brain_games.cli import welcome_user
 
 
 def main():
-    print('''poetry run python -m brain_games.scripts.brain_games
-Welcome to the Brain Games!''')
+    print('Welcome to the Brain Games!')
 
 
 if __name__ == '__main__':
-    main()
+    main()#  Выводит на экран приветствие в игре
+    welcome_user()#   Спрашивает имя, приветствует пользователя по имени
