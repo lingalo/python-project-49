@@ -5,11 +5,10 @@ from brain_games.scripts.brain_games import main
 from random import randint
 
 
-def greeting(): # 3)проблема с запоминанием решена, эт я подсмотрела
+def greeting():  # 3)проблема с запоминанием решена, эт я подсмотрела
     global name
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-
 
 
 def is_even(number):
@@ -27,12 +26,12 @@ def is_even_game():
         answer = prompt.string('Your answer: ')
         correct = is_even(number)
         if correct != answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}!") # 2)тут тоже не помнит
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}!")  # 2)тут тоже не помнит
             break
         elif x < 3:
             print('Correct!')
         else:
-            print(f'Correct!\nCongratulations, {name}!') # 1)почему-то перезаписывает переменную name на '' ._.
+            print(f'Correct!\nCongratulations, {name}!')  # 1)почему-то перезаписывает переменную name на '' ._.
 
 
 if __name__ == '__main__':
