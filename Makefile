@@ -21,3 +21,12 @@ brain-even:
 
 brain-calc:
 	python -m games.scripts.brain_calc
+
+brain-gcd:
+	python -m games.scripts.brain_gcd
+
+brain-progression:
+	python -m games.scripts.brain_progression
+
+brain-prime:
+	python -m games.scripts.brain_prime
