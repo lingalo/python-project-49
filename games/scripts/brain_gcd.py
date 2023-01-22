@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from games.logic import main
+from games.logic import logic
 
 
 start = 'Find the greatest common divisor of given numbers.'
@@ -15,5 +15,9 @@ def what_is_gcd(num1, num2):
     return num1 + num2
 
 
+def main():
+    logic(start, what_is_gcd)
+
+
 if __name__ == '__main__':
-    main(start, what_is_gcd)
+    main()

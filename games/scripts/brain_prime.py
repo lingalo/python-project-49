@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from games.logic import main
+from games.logic import logic
 
 
 start = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(num1, num2 = None):
+def is_prime(num1, num2=None):
     print(f'Question: {num1}')
     if num1 == 1:
         return 'no'
@@ -15,5 +15,9 @@ def is_prime(num1, num2 = None):
     return 'yes'
 
 
+def main():
+    logic(start, is_prime)
+
+
 if __name__ == '__main__':
-    main(start, is_prime)
+    main()

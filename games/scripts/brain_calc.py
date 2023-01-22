@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from games.logic import main
+from games.logic import logic
 from random import choices
 
 
@@ -13,5 +13,9 @@ def calc(num1, num2):
     return eval(f'{expression}')
 
 
+def main():
+    logic(start, calc)
+
+
 if __name__ == '__main__':
-    main(start, calc)
+    main()

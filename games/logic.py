@@ -3,7 +3,7 @@ import prompt
 from random import randint
 
 
-def main(start, func):
+def logic(start, func):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -11,10 +11,11 @@ def main(start, func):
     for x in range(1, 4):
         num1 = randint(1, 20)
         num2 = randint(1, 20)
-        correct = func(num1, num2)
-        answer = prompt.string('Your answer ')
-        if str(answer) != str(correct):
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}")
+        right = func(num1, num2)
+        ans = prompt.string('Your answer ')
+        if str(ans) != str(right):
+            print(f"""'{ans}' is wrong answer ;(. Correct answer was '{right}'.
+Let's try again, {name}""")
             break
         elif x < 3:
             print('Corect!')
