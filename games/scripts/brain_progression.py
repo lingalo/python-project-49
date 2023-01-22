@@ -15,7 +15,7 @@ def what_missing(num1, num2):
     correct = question[ind]
     question[ind] = '..'
     print(f'Qustion: {" ".join(str(x) for x in question)}')
-    print(correct)
+    #print(correct)
     return correct
 
 
