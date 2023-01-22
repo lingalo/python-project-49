@@ -15,7 +15,7 @@ def logic(start, func):
         ans = prompt.string('Your answer ')
         if str(ans) != str(right):
             print(f"'{ans}' is wrong answer ;(. Correct answer was '{right}'.")
-            print("Let's try again, {name}")
+            print(f"Let's try again, {name}")
             break
         elif x < 3:
             print('Corect!')
