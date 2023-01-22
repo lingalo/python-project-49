@@ -1,5 +1,7 @@
-from games.logic import logic
+#!/usr/bin/env python3
+from games.logic import main
 from random import randint, choice
+
 
 start = 'What number is missing in the progression?'
 
@@ -16,5 +18,6 @@ def what_missing(num1, num2):
     print(correct)
     return correct
 
+
 if __name__ == '__main__':
-    logic(start, what_missing)
+    main(start, what_missing)

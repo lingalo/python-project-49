@@ -10,23 +10,26 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+reinstall:
+	pip install --user --force-reinstall dist/*.whl
+
 lint:
 	poetry run flake8 brain_games
 
 brain-games:
-	python -m games.scripts.brain_games
+	poetry run brain-games
 
 brain-even:
-	python -m games.scripts.brain_even
+	poetry run brain-even
 
 brain-calc:
-	python -m games.scripts.brain_calc
+	poetry run brain-calc
 
 brain-gcd:
-	python -m games.scripts.brain_gcd
+	poetry run brain-gcd
 
 brain-progression:
-	python -m games.scripts.brain_progression
+	poetry run brain-progression
 
 brain-prime:
-	python -m games.scripts.brain_prime
+	poetry run brain-prime

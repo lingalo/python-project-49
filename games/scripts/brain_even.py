@@ -1,4 +1,5 @@
-from games.logic import logic
+#!/usr/bin/env python3
+from games.logic import main
 
 
 start = 'Answer "yes" if the number is even, otherwise answer "no".'
@@ -13,4 +14,4 @@ def is_even(num1, num2 = None):
 
 
 if __name__ == '__main__':
-    logic(start, is_even)
+    main(start, is_even)

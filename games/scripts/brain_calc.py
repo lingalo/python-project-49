@@ -1,5 +1,7 @@
-from games.logic import logic
+#!/usr/bin/env python3
+from games.logic import main
 from random import choices
+
 
 start = 'What is the result of the expression?'
 
@@ -12,4 +14,4 @@ def calc(num1, num2):
 
 
 if __name__ == '__main__':
-    logic(start, calc)
+    main(start, calc)
