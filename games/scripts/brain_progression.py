@@ -11,7 +11,7 @@ def what_missing(num1, num2):
     for x in range(1, 11):
         question += [num1]
         num1 += num2
-    ind = randint(1, 9)
+    ind = randint(0, 9)
     correct = question[ind]
     question[ind] = '..'
     print(f'Qustion: {" ".join(str(x) for x in question)}')
