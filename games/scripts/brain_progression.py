@@ -14,7 +14,7 @@ def what_missing(num1, num2):
     ind = randint(0, 9)
     correct = question[ind]
     question[ind] = '..'
-    print(f'Qustion: {" ".join(str(x) for x in question)}')
+    print(f'Question: {" ".join(str(x) for x in question)}')
     #print(correct)
     return correct
 
