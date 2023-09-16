@@ -19,7 +19,7 @@ def logic(RULES, game):
             count += 1
         else:
             print(f"'{answer}'{WRONG_ANSWER}'{correct_answer}'")
-            print(f'Let\'s try again {name}!')
+            print(f'Let\'s try again, {name}!')
             break
     if count == 3:
         print(f'Congratulations, {name}!')
