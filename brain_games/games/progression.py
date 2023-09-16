@@ -10,7 +10,7 @@ def progression():
         progression += [str(first_number)]
         first_number += difference
     pass_index = randint(0, length - 1)
-    progression.pop(pass_index)
+    missing_number = progression.pop(pass_index)
     progression.insert(pass_index, '..')
     numbers = ' '.join(progression)
-    return (difference, numbers)
+    return (missing_number, numbers)
