@@ -5,6 +5,7 @@
 
 ## Description:
 Brain Games is a simple console program. Contains five games: brain-calc, brain-even, brain-gcd, brain-prime, brain-progression.
+
 Each game features simple questions based on number manipulation. To win each game, you must give the correct answer three times in a row. Otherwise you will lose.
 
 
@@ -22,6 +23,8 @@ _prompt = ^0.4.1_
 
 2. Then from the python-project-49 directory run the following commands:
 
+**cd python-project-49**
+
 **poetry install**
 
 **poetry build**
@@ -31,6 +34,9 @@ _prompt = ^0.4.1_
 **python3 -m pip install --user dist/*.whl**
 
 3. Or using the commands from the Makefile:
+
+**cd python-project-49**
+
 **make install**
 
 **make build**
