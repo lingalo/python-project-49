@@ -9,33 +9,45 @@ Each game features simple questions based on number manipulation. To win each ga
 
 
 ## Requirements:
+
 _python = ^3.8.1_
+
 _prompt = ^0.4.1_
 
 
 ## Installation:
 1. You need to clone this repository to your computer:
+
 **git clone git@github.com:lingalo/python-project-49.git**
+
 2. Then from the python-project-49 directory run the following commands:
+
 **poetry install**
+
 **poetry build**
+
 **poetry publish --dry-run**
+
 **python3 -m pip install --user dist/*.whl**
-Or using the commands from the Makefile:
+
+3. Or using the commands from the Makefile:
 **make install**
+
 **make build**
+
 **make publish**
+
 **make package-install** 
 
 
-## How each game works<sub>asciinema</sub>:
-# brain-calc:
+## How games work:
+### brain-calc:
 [![asciicast](https://asciinema.org/a/zUooYSY5ojoE2uHTnvtTIIZtx.svg)](https://asciinema.org/a/zUooYSY5ojoE2uHTnvtTIIZtx)
-# brain-even:
+### brain-even:
 [![asciicast](https://asciinema.org/a/9itMtqjGHS9EiGq8P3hc1WW02.svg)](https://asciinema.org/a/9itMtqjGHS9EiGq8P3hc1WW02)
-# brain-gcd:
+### brain-gcd:
 [![asciicast](https://asciinema.org/a/tJFne6Y6TEc03msm3imGzPbja.svg)](https://asciinema.org/a/tJFne6Y6TEc03msm3imGzPbja)
-# brain-prime:
+### brain-prime:
 [![asciicast](https://asciinema.org/a/nQowgwQPIxL7GG5fubaJmoWtb.svg)](https://asciinema.org/a/nQowgwQPIxL7GG5fubaJmoWtb)
-# brain-progression:
+### brain-progression:
 [![asciicast](https://asciinema.org/a/BdTV4ZoZDlfsJkeS9tkAi0dnE.svg)](https://asciinema.org/a/BdTV4ZoZDlfsJkeS9tkAi0dnE)
