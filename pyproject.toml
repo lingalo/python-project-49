@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["lingalo <bokova.nast@yandex.ru>"]
+description = "Five simple console games based on number manipulation."
+authors = ["Bokova Anastasia <bokova.nast@yandex.ru>"]
+repository = "https://github.com/lingalo/python-project-49"
+classifiers = [
+  "Programming Language :: Python :: 3.8.10"
+]
 readme = "README.md"
 packages = [
     {include = "brain_games"},
